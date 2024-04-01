@@ -32,10 +32,12 @@ em strong {
 <p style="font-size: 20px"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
 //*
-h1 {
-    text-align: center
+.titulo-principal{
+padding-left:20px;
 }
-
+.titulo-secundario{
+text-align:center;
+}
 p {
     text-align: center;
 }
