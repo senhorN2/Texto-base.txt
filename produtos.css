@@ -46,7 +46,12 @@ nav a:hover {
     padding: 30px 20px;
     box-sizing: border-box;
 }
-
+.produtos li:hover{
+border-color: pink;
+.produtos li:active{
+border-color: red;
+}
+}
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
