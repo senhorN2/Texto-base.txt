@@ -48,9 +48,12 @@ nav a:hover {
 }
 .produtos li:hover{
 border-color: pink;
+}
 .produtos li:active{
 border-color: red;
 }
+.produtos li:hover{
+font-size:34px
 }
 .produtos h2 {
     font-size: 30px;
