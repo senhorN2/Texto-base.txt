@@ -58,28 +58,24 @@
     <input type="text" id="telefone" class="input-padrao" >
     <label for="message">Mensagem</label>
     <textarea cols="70" rows="10" id="mensagem" class="input-padrao">
-    <table>
-    <thead>
-        <tr>
-            <th>Dia</th>
-            <th>Horário</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Segunda</td>
-            <td>8h ~ 20h</td>
-        </tr>
-        <tr>
-            <td>Quarta</td>
-            <td>8h ~ 20h</td>
-        </tr>
-        <tr>
-            <td>Sexta</td>
-            <td>8h ~ 20h</td>
-        </tr>
-    </tbody>
-</table>
+    <inputarea>
+   <div>
+    <p>Como prefere o nosso contato?</p>
+    <label for="radio-email">
+        <input type="radio" name="contato" value="email" id="radio-email">
+        Email
+    </label>
+
+    <label for="radio-telefone">
+        <input type="radio" name="contato" value="telefone" id="radio-telefone"> 
+        Telefone
+    </label>
+
+    <label for="radio-whatsapp">
+        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+        WhatsApp
+    </label>
+</div>
     <input type="submit" value="enviar formulário">
   </form>
 
