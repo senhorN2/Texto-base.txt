@@ -64,3 +64,29 @@ nav a:hover {
     font-weight: bold;
     margin-top: 10px;
 }
+
+main{
+    width: 940px;
+    margin: o auto;
+}
+
+form{
+    margin: 40px o;
+}
+
+form label, form p{
+    display: block;
+    fort-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+
+    
