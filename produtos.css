@@ -74,7 +74,7 @@ form{
     margin: 40px o;
 }
 
-form label, form p{
+form label, form legend{
     display: block;
     fort-size: 20px;
     margin: 0 0 10px;
