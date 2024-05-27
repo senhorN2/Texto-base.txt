@@ -91,8 +91,7 @@ footer {
 }
 
 main {
-	width: 940px;
-	margin: 0 auto;
+	
 }
 
 form {
@@ -114,4 +113,8 @@ form label, form p {
 
 .checkbox {
 	margin: 20px 0;
+}
+.conteudo-beneficios{
+width: 940px;
+margin: 0 auto;
 }
