@@ -115,6 +115,21 @@ form label, form p {
 	margin: 20px 0;
 }
 .conteudo-beneficios{
-width: 940px;
+width: 640px;
 margin: 0 auto;
+}
+.lista-beneficios{
+width: 40%;
+display: inline-block;
+vertical-align: top;
+}
+.itens{
+line-height: 1.5;
+}
+.itens:first-child{
+font-weight: bold;
+}
+.beneficios{
+padding: 3em 0;
+background: #888888;
 }
