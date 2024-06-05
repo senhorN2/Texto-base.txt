@@ -188,8 +188,13 @@ td, th {
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 1;
+        transistion: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
 }
-
+.imagem-beneficios:hover{
+opacity: 0.3;
+}
 .mapa {
     padding: 3em 0;
     background: linear-gradient(#FEFEFE, #888888);
@@ -211,7 +216,8 @@ td, th {
 	vertical-align: top;
 }
 
-.itens{
+.itens:before{
+	content:"⛧" 
 	line-height: 1.5;
 }
 
